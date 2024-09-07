@@ -1,4 +1,3 @@
-/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,25 +6,25 @@
 
 html, body {
   height: 100%;
-  font-family: 'Arial', sans-serif; /* Use a clean, readable font */
+  font-family: 'Arial', sans-serif; 
 }
 
 body {
   line-height: 1.6;
-  color: #fff; /* White text for contrast */
-  background: url('../images/wallpaper.jpg') no-repeat center center fixed; /* Full-page background image */
-  background-size: cover; /* Cover the entire page */
+  color: #fff;
+  background: url('../images/wallpaper.jpg') no-repeat center center fixed; 
+  background-size: cover; 
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
 header {
-  background: rgba(0, 0, 0, 0.6); /* Darker semi-transparent background for header */
+  background: rgba(0, 0, 0, 0.6); 
   color: white;
   position: relative;
-  z-index: 10; /* Ensure the header is above other content */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add subtle shadow for depth */
+  z-index: 10; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
 }
 
 .navibar {
@@ -33,7 +32,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  height: 80px; /* Adjust header height */
+  height: 80px; 
 }
 
 .logo img {
@@ -61,23 +60,23 @@ header {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  font-weight: 600; /* Slightly bolder text */
+  font-weight: 600; 
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .menu ul li a:hover {
-  color: rgb(35, 189, 176); /* Highlight color on hover */
-  transform: scale(1.05); /* Slightly scale up on hover */
+  color: rgb(35, 189, 176); 
+  transform: scale(1.05); 
 }
 
 .wrapper {
   padding: 30px;
-  max-width: calc(1200px - 340px); /* Adjusted to fit space for aside */
-  margin: 30px auto; /* Center the content with margin */
-  border-radius: 12px; /* Rounded corners */
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for contrast with the wallpaper */
-  color: #fff; /* Ensure text is readable against the dark background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  max-width: calc(1200px - 340px); 
+  margin: 30px auto; 
+  border-radius: 12px; 
+  background: rgba(0, 0, 0, 0.6); 
+  color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -91,25 +90,25 @@ header {
 
 .profile-image {
   width: 100%;
-  max-width: 200px; /* Limit the maximum width to make the image smaller */
+  max-width: 200px; 
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-  margin-bottom: 20px; /* Space below the image */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 20px; 
 }
 
 .profile-text {
-  flex: 1; /* Main content area */
+  flex: 1; 
 }
 
 aside.right {
-  width: 300px; /* Fixed width for the aside */
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for contrast */
+  width: 300px; 
+  background: rgba(0, 0, 0, 0.6); 
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-  position: sticky; /* Keep the aside menu in place as you scroll */
-  top: 30px; /* Adjust top position if needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  position: sticky; 
+  top: 30px; 
 }
 
 aside.right h2 {
@@ -118,25 +117,24 @@ aside.right h2 {
 }
 
 aside.right a {
-  color: rgb(35, 189, 176); /* Stylish link color */
+  color: rgb(35, 189, 176); 
   text-decoration: none;
-  display: block; /* Block display to ensure links are stacked vertically */
+  display: block; 
   margin-bottom: 10px;
-  font-weight: 600; /* Slightly bolder text */
+  font-weight: 600; 
 }
 
 aside.right a:hover {
   text-decoration: underline;
-  color: #fff; /* White color on hover for better visibility */
+  color: #fff; 
 }
 
-/* Footer */
 footer {
-  background: rgba(0, 0, 0, 0.7); /* Darker background for footer */
+  background: rgba(0, 0, 0, 0.7); 
   color: #fff;
   padding: 20px;
   text-align: center;
-  margin-top: auto; /* Push footer to the bottom */
+  margin-top: auto; 
 }
 
 .footer-container {
@@ -162,38 +160,35 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Footer Social Icons */
 .social-icons {
   display: flex;
-  justify-content: center; /* Center icons horizontally */
-  gap: 15px; /* Space between icons */
-  margin-top: 10px; /* Space above icons */
+  justify-content: center; 
+  gap: 15px; 
+  margin-top: 10px; 
 }
 
 .social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px; /* Fixed width for icon container */
-  height: 40px; /* Fixed height for icon container */
-  border-radius: 50%; /* Round shape for background */
-  background: rgba(35, 189, 176, 0.8); /* Background color with transparency */
-  transition: background 0.3s ease; /* Smooth transition for hover effect */
-  text-decoration: none; /* Remove underline from links */
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  background: rgba(35, 189, 176, 0.8); 
+  transition: background 0.3s ease; 
+  text-decoration: none; 
 }
 
 .social-icon img {
-  width: 24px; /* Adjust icon size */
-  height: 24px; /* Adjust icon size */
-  transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+  width: 24px; 
+  height: 24px; 
+  transition: opacity 0.3s ease; 
 }
 
 .social-icon:hover {
-  background: rgb(35, 189, 176); /* Solid background color on hover */
+  background: rgb(35, 189, 176); 
 }
 
 .social-icon:hover img {
-  opacity: 0.8; /* Slightly change icon opacity on hover */
+  opacity: 0.8; 
 }
-
-
