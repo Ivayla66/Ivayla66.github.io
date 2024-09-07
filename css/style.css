@@ -13,7 +13,7 @@ html, body {
 body {
   line-height: 1.6;
   color: #fff; /* White text for contrast */
-  background: url('wallpaper.jpg') no-repeat center center fixed; /* Full-page background image */
+  background: url('../images/wallpaper.jpg') no-repeat center center fixed; /* Full-page background image */
   background-size: cover; /* Cover the entire page */
   display: flex;
   flex-direction: column;
