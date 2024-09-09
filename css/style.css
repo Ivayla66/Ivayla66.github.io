@@ -37,7 +37,7 @@ header {
 }
 
 .logo img {
-  height: 50px;
+  height: 56px;
   width: 50px;
 }
 
@@ -90,8 +90,8 @@ header {
 }
 
 .profile-image {
-  width: 100%;
-  max-width: 200px;
+  width: 200%;
+  max-width: 300px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -187,7 +187,7 @@ footer {
 }
 
 .social-icon:hover {
-  background: rgb(35, 189, 176);
+  background:#45F6DC;
 }
 
 .social-icon:hover img {
@@ -226,7 +226,7 @@ footer {
 
 
 .profile-image {
-  width: 150px;
+  width: 420px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -234,7 +234,7 @@ footer {
 
 
 .dashboard-content {
-  padding: 0.5px;
+  padding: 3px;
 }
 
 table {
@@ -246,22 +246,19 @@ table {
 th,td {
   padding: 12px;
   text-align: left;
-  border: 1px solid #d7b273e0;
+  border: 0.5px solid #269685 ;
 }
 
 th {
-  background-color: #d06161;
+  background-color: #17222c;
+  border: 2px solid #269685;
 }
 
-.incomplete {
-  background-color: #ab868a;
+tr {
+  background-color: #283949;
 }
 
-.not-yet-completed {
-  background-color: #bea073;
-}
-
-.progress {
+progress {
   margin-top: 20px;
   font-weight: bold;
 }
@@ -269,3 +266,5 @@ th {
 .faq-question {
   color: #239ce3;
   font-weight: bold;
+}
+
