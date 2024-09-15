@@ -3,6 +3,7 @@
     height: auto;
     vertical-align: middle;
     margin-right: 10px;
+    margin-bottom: 10px;
   }
 
   .image-gallery {
@@ -24,3 +25,7 @@
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
   }
+
+h1, h2 {
+  font-size: 1.8rem;
+}

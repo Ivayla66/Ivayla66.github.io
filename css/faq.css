@@ -1,0 +1,15 @@
+h1 {
+    font-size: 1.8rem;
+    color:#fff;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color:#269685;
+    margin-bottom: 15px;
+}
+
+article p,
+article ul {
+    margin-top: 10px;
+}

@@ -1,6 +1,5 @@
 .dashboard-content {
     color:#fff;
-    line-height: ;
   }
 
   progress {
@@ -22,4 +21,8 @@ th {
 
 tr {
   background-color: #283949;
+}
+
+h1 {
+  font-size: 1.8rem;
 }
